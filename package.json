@@ -1,0 +1,21 @@
+{
+  "name": "aklesky-theme",
+  "displayName": "Aklesky Theme",
+  "description": "Aklesky Color Scheme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aklesky VS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aklesky-dark-theme.json"
+      }
+    ]
+  }
+}
