@@ -1,0 +1,29 @@
+name: Release VS Code Theme
+
+on:
+  workflow_run:
+    workflows: ["Automated versioning"]
+    types:
+      - completed
+    branches:
+      - master
+
+jobs:
+  release:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: npm ci
+      - name: Install vsce
+        run: npm install -g @vscode/vsce
+      - name: Publish to VS Code Marketplace
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_ID }}
+        run: vsce publish --pat $VSCE_PAT

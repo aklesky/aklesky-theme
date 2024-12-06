@@ -1,16 +1,13 @@
-# aklesky-theme README
+# Aklesky Flat Dark Theme
 
-## Working with Markdown
+A collection of pastel style themes for Visual Studio Code.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## [GitHub Repo](https://github.com/aklesky/aklesky-theme)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Screenshots
 
-## For more information
+### Golden River
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![Golden River #1](./assets/screenshot-1.png)
+![Golden River #2](./assets/screenshot-2.png)
+![Golden River #3](./assets/screenshot-3.png)

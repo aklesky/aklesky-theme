@@ -1,0 +1,101 @@
+.test {
+    color: auto;
+    background-color: auto;
+    border-color: auto;
+    border: auto;
+    border-radius: auto;
+    border-width: auto;
+    border-style: solid 1px #000;
+}
+
+:root {
+    --main-color: #d16fff;
+    --accent: #5CCFE6;
+    --radius: 8px;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #1F2430;
+    color: var(--main-color);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--accent);
+}
+
+.button {
+    background: var(--main-color);
+    color: #fff;
+    border-radius: var(--radius);
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.button:hover {
+    background: #5CCFE6;
+}
+
+/* Pseudo-classes and Pseudo-elements */
+a:link {
+    color: #72c6e8;
+}
+
+a:visited {
+    color: #d16fff;
+}
+
+a:hover {
+    color: #ffb454;
+}
+
+a:active {
+    color: #e06c75;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+ul li:last-child {
+    font-style: italic;
+}
+
+input:focus {
+    outline: 2px solid var(--accent);
+}
+
+/* Attribute selectors */
+input[type="text"] {
+    border: 1px solid #d16fff;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation: fadeIn 1s ease;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
