@@ -2,7 +2,7 @@
     "name": "aklesky-flat-dark-theme",
     "displayName": "Aklesky Flat Dark Theme",
     "description": "A collection of pastel style themes for Visual Studio Code.",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "private": true,
     "license": "MIT",
     "engines": {

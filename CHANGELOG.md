@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/aklesky/aklesky-theme/compare/v1.0.2...v1.1.0) (2025-05-23)
+
+
+### Features
+
+* **logo:** add extension logo ([de3e47e](https://github.com/aklesky/aklesky-theme/commit/de3e47e86a7462fec1de5c14ebfafdebf459ebb2))
+
 ## [1.0.2](https://github.com/aklesky/aklesky-theme/compare/v1.0.1...v1.0.2) (2025-05-23)
 
 
