@@ -1,0 +1,69 @@
+@use "sass:math";
+
+.bg-color {
+    background-color: #f0f0f0;
+    color: auto;
+}
+
+// Variables
+$primary: #5CCFE6;
+$padding: 1rem;
+
+// Mixin
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Function
+@function rem($px) {
+  @return $px / 16 * 1rem;
+}
+
+// Extends
+%rounded {
+  border-radius: 8px;
+}
+
+// Nesting and Selectors
+.container {
+  @include flex-center;
+  padding: $padding;
+  background: $primary;
+  .item {
+    @extend %rounded;
+    color: darken($primary, 20%);
+    &:hover {
+      color: lighten($primary, 20%);
+    }
+    &.active {
+      font-weight: bold;
+    }
+  }
+}
+
+// Keyframes
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+// Media Query
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+// CSS Custom Properties
+:root {
+  --main-color: #d16fff;
+  --spacing: 8px;
+}
+
+.button {
+  background: var(--main-color);
+  margin: var(--spacing);
+  animation: fadeIn 1s ease;
+}
