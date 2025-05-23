@@ -38,4 +38,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          HUSKY: 0
         run: semantic-release
