@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/aklesky/aklesky-theme/compare/v1.0.0...v1.0.1) (2025-05-23)
+
+
+### Bug Fixes
+
+* automatic versioning ([bf09ce4](https://github.com/aklesky/aklesky-theme/commit/bf09ce44468f14c852027377411d05b2cfffbb46))
+
 # 1.0.0 (2025-05-23)
 
 
