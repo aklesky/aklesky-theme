@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 22
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
       - name: Install semantic-release
         run: pnpm add -g semantic-release
       - name: Run semantic-release (conventional commits, GitHub only)

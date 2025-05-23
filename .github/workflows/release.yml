@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 22
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
       - name: Install vsce
         run: pnpm add -g @vscode/vsce
       - name: Publish to VS Code Marketplace

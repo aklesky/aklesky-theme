@@ -1,7 +1,7 @@
 {
     "name": "@aklesky/vs-code-themes",
-    "displayName": "Aklesky Themes",
-    "description": "Aklesky Color Scheme",
+    "displayName": "Aklesky Flat Dark Theme",
+    "description": "A collection of pastel style themes for Visual Studio Code.",
     "version": "0.0.0",
     "private": true,
     "engines": {
