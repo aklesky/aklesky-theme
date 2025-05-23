@@ -2,7 +2,7 @@
     "name": "@aklesky/vs-code-themes",
     "displayName": "Aklesky Themes",
     "description": "Aklesky Color Scheme",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "private": true,
     "engines": {
         "vscode": "^1.95.0"
