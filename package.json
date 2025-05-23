@@ -9,7 +9,7 @@
         "vscode": "^1.95.0"
     },
     "publisher": "aklesky",
-    "icon": "icons/logo.png",
+    "icon": "icons/aklesky.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/aklesky/aklesky-theme.git"
