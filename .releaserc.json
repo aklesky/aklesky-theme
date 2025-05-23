@@ -1,10 +1,50 @@
 {
     "branches": ["master"],
+    "repositoryUrl": "https://github.com/aklesky/aklesky-theme.git",
+    "tagFormat": "v${version}",
     "plugins": [
         [
             "@semantic-release/commit-analyzer",
             {
-                "preset": "conventionalcommits"
+                "preset": "conventionalcommits",
+                "releaseRules": [
+                    {
+                        "type": "feat",
+                        "release": "minor"
+                    },
+                    {
+                        "type": "fix",
+                        "release": "patch"
+                    },
+                    {
+                        "type": "perf",
+                        "release": "patch"
+                    },
+                    {
+                        "type": "chore",
+                        "release": false
+                    },
+                    {
+                        "type": "style",
+                        "release": false
+                    },
+                    {
+                        "type": "docs",
+                        "release": false
+                    },
+                    {
+                        "type": "test",
+                        "release": false
+                    },
+                    {
+                        "type": "ci",
+                        "release": false
+                    },
+                    {
+                        "type": "refactor",
+                        "release": false
+                    }
+                ]
             }
         ],
         "@semantic-release/release-notes-generator",
@@ -17,7 +57,10 @@
         [
             "@semantic-release/github",
             {
-                "assets": ["CHANGELOG.md", "package.json"]
+                "assets": ["CHANGELOG.md", "package.json"],
+                "failComment": false,
+                "failTitle": false,
+                "labels": false
             }
         ],
         [
@@ -28,8 +71,5 @@
             }
         ]
     ],
-    "tagFormat": "v${version}",
-    "ignoreCommitsWith": ["docs", "chore", "style", "refactor", "test", "ci"],
-    "verifyConditions": ["@semantic-release/github", "@semantic-release/npm"],
-    "onlyPublishWithChanges": ["themes/**/*.json", "package.json"]
+    "verifyConditions": ["@semantic-release/github"]
 }
