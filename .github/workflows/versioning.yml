@@ -27,5 +27,5 @@ jobs:
         run: pnpm add -g semantic-release
       - name: Run semantic-release (conventional commits, GitHub only)
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: npx semantic-release
