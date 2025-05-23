@@ -1,0 +1,10 @@
+wiki/
+examples/
+assets/
+.husky/
+.github/
+.editorconfig
+.coderabbit.yml
+.commitlint.config.mjs
+prettier.config.mjs
+package-lock.yaml
