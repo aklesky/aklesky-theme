@@ -143,7 +143,10 @@
         "notification.buttonBackground": "#a95927",
         "notification.buttonForeground": "#ffffff",
         "notification.buttonHoverBackground": "#d7a180",
-        "editorWhitespace.foreground": "#222734"
+        "editorWhitespace.foreground": "#222734",
+        "input.background": "#232837",
+        "input.foreground": "#ffffff93",
+        "input.border": "#181b23"
     },
     "tokenColors": [
         {
