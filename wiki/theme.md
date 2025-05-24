@@ -39,6 +39,9 @@ Below is the full list of UI colors used in the theme, grouped by property, with
 | peekViewEditor.matchHighlightBackground | #d7a18040 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#d7a180;border:1px solid #ccc;vertical-align:middle"></span> | Peek View Editor Match Highlight       |
 | peekViewResult.background               | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Peek View Result Background            |
 | peekViewResult.matchHighlightBackground | #d7a18040 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#d7a180;border:1px solid #ccc;vertical-align:middle"></span> | Peek View Result Match Highlight       |
+| input.background                        | #232837   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#232837;border:1px solid #ccc;vertical-align:middle"></span> | Input Background                       |
+| input.foreground                        | #ffffff93 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#ffffff;border:1px solid #ccc;vertical-align:middle"></span> | Input Foreground                       |
+| input.border                            | #181b23   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#181b23;border:1px solid #ccc;vertical-align:middle"></span> | Input Border                           |
 
 ## ActivityBar
 
@@ -137,7 +140,10 @@ Below is the full list of UI colors used in the theme, grouped by property, with
 "editor.foreground": "#ffffff93",
 "button.background": "#a95927",
 "button.foreground": "#ffffff95",
-"selection.background": "#9f7c67"
+"selection.background": "#9f7c67",
+"input.background": "#232837",
+"input.foreground": "#ffffff93",
+"input.border": "#181b23"
 ```
 
 These colors can be used in customizations or referenced for UI consistency.
