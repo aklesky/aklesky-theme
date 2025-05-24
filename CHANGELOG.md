@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/aklesky/aklesky-theme/compare/v1.1.0...v1.2.0) (2025-05-24)
+
+
+### Bug Fixes
+
+* **inputs:** update input background and border ([7031d9e](https://github.com/aklesky/aklesky-theme/commit/7031d9e001d1f6edce9ca8c316a087c2e7c96bc5))
+
+
+### Features
+
+* **logo:** add extension logo ([a0e5c5a](https://github.com/aklesky/aklesky-theme/commit/a0e5c5a09399456a5f4e60837cad01caa2ecd255))
+
 # [1.1.0](https://github.com/aklesky/aklesky-theme/compare/v1.0.2...v1.1.0) (2025-05-23)
 
 
