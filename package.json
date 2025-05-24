@@ -23,6 +23,11 @@
                 "label": "Aklesky Golden River",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark/golden.json"
+            },
+            {
+                "label": "Aklesky Mist of Mint",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/mist.json"
             }
         ]
     },
