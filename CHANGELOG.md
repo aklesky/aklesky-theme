@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/aklesky/aklesky-theme/compare/v1.2.0...v1.3.0) (2025-05-26)
+
+
+### Features
+
+* **mint:** initial mint theme ([1d661e3](https://github.com/aklesky/aklesky-theme/commit/1d661e317c83aaf73b47465faba4d20bfef10c02))
+
 # [1.2.0](https://github.com/aklesky/aklesky-theme/compare/v1.1.0...v1.2.0) (2025-05-24)
 
 
