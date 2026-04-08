@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/aklesky/aklesky-theme/compare/v1.3.0...v1.3.1) (2026-04-08)
+
+
+### Bug Fixes
+
+* **mist:** ensure better contrast colors ([#17](https://github.com/aklesky/aklesky-theme/issues/17)) ([a5fc76f](https://github.com/aklesky/aklesky-theme/commit/a5fc76f7f01a3cdae47208b5e6e01968abfb7322))
+
 # [1.3.0](https://github.com/aklesky/aklesky-theme/compare/v1.2.0...v1.3.0) (2025-05-26)
 
 
