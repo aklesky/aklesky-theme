@@ -21,3 +21,4 @@ A collection of pastel style themes for Visual Studio Code.
 ![Mist of Mint #2](./assets/screenshot-5.png)
 
 ![Mist of Mint #3](./assets/screenshot-6.png)
+
