@@ -14,7 +14,7 @@ Below is the full list of UI colors used in the theme, grouped by property, with
 | progressBar.background                  | #68B57B55 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#68B57B;border:1px solid #ccc;vertical-align:middle"></span> | Progress Bar                           |
 | editorWhitespace.foreground             | #222734   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#222734;border:1px solid #ccc;vertical-align:middle"></span> | Whitespace Dots                        |
 | editorGroupHeader.tabsBackground        | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Tabs Background                        |
-| editorGroupHeader.tabsBorder            | #242424   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#242424;border:1px solid #ccc;vertical-align:middle"></span> | Tabs Border                            |
+| editorGroupHeader.tabsBorder            | #68B57B80 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#68B57B;border:1px solid #ccc;vertical-align:middle"></span> | Tabs Border                            |
 | editorGroup.border                      | #1D222E   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1D222E;border:1px solid #ccc;vertical-align:middle"></span> | Editor Group Border                    |
 | editorGroupHeader.border                | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Editor Group Header Border             |
 | editorGroupHeader.dropBackground        | #242424   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#242424;border:1px solid #ccc;vertical-align:middle"></span> | Editor Group Header Drop Background    |
@@ -142,36 +142,36 @@ Below is the full list of UI colors used in the theme, grouped by property, with
 
 ## Modern UI Surfaces
 
-| Name                             | Color     | Preview                                                                                                                                | Usage Example                       |
-| -------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| modernUI.shellBackground         | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span>     | Modern UI Shell Background          |
-| modernUI.inactiveShellBackground | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span>     | Modern UI Inactive Shell Background |
-| surface.background               | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span>     | Card Surface Background             |
-| surface.foreground               | #cbd0d6CC | <span style="display:inline-block;width:1.5em;height:1.5em;background:#cbd0d6;border:1px solid #ccc;vertical-align:middle"></span>     | Card Surface Foreground             |
-| surface.border                   | #00000000 | <span style="display:inline-block;width:1.5em;height:1.5em;background:transparent;border:1px solid #ccc;vertical-align:middle"></span> | Card Surface Border                 |
-| editor.border                    | #00000000 | <span style="display:inline-block;width:1.5em;height:1.5em;background:transparent;border:1px solid #ccc;vertical-align:middle"></span> | Editor Surface Border               |
-| modernPanel.border               | #00000000 | <span style="display:inline-block;width:1.5em;height:1.5em;background:transparent;border:1px solid #ccc;vertical-align:middle"></span> | Panel Surface Border                |
-| modernSash.gripForeground        | #68B57B99 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#68B57B;border:1px solid #ccc;vertical-align:middle"></span>     | Resize Grip                         |
-| sash.hoverBorder                 | #68B57B   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#68B57B;border:1px solid #ccc;vertical-align:middle"></span>     | Resize Sash Hover                   |
+| Name                             | Color     | Preview                                                                                                                            | Usage Example                       |
+| -------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| modernUI.shellBackground         | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Modern UI Shell Background          |
+| modernUI.inactiveShellBackground | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Modern UI Inactive Shell Background |
+| surface.background               | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Card Surface Background             |
+| surface.foreground               | #cbd0d6CC | <span style="display:inline-block;width:1.5em;height:1.5em;background:#cbd0d6;border:1px solid #ccc;vertical-align:middle"></span> | Card Surface Foreground             |
+| surface.border                   | #ffffff06 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#ffffff;border:1px solid #ccc;vertical-align:middle"></span> | Card Surface Border                 |
+| editor.border                    | #ffffff06 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#ffffff;border:1px solid #ccc;vertical-align:middle"></span> | Editor Surface Border               |
+| modernPanel.border               | #ffffff06 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#ffffff;border:1px solid #ccc;vertical-align:middle"></span> | Panel Surface Border                |
+| modernSash.gripForeground        | #68B57B99 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#68B57B;border:1px solid #ccc;vertical-align:middle"></span> | Resize Grip                         |
+| sash.hoverBorder                 | #68B57B   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#68B57B;border:1px solid #ccc;vertical-align:middle"></span> | Resize Sash Hover                   |
 
 ## Modern UI Tabs
 
 | Name                                        | Color     | Preview                                                                                                                            | Usage Example                   |
 | ------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| modernTab.activeBackground                  | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Active Tab Background           |
-| modernTab.activeForeground                  | #cbd0d6CC | <span style="display:inline-block;width:1.5em;height:1.5em;background:#cbd0d6;border:1px solid #ccc;vertical-align:middle"></span> | Active Tab Foreground           |
-| modernTab.hoverBackground                   | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Tab Hover Background            |
+| modernTab.activeBackground                  | #2E413F   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#2E413F;border:1px solid #ccc;vertical-align:middle"></span> | Active Tab Background           |
+| modernTab.activeForeground                  | #68B57B   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#68B57B;border:1px solid #ccc;vertical-align:middle"></span> | Active Tab Foreground           |
+| modernTab.hoverBackground                   | #282D38   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#282D38;border:1px solid #ccc;vertical-align:middle"></span> | Tab Hover Background            |
 | modernTab.hoverForeground                   | #cbd0d6CC | <span style="display:inline-block;width:1.5em;height:1.5em;background:#cbd0d6;border:1px solid #ccc;vertical-align:middle"></span> | Tab Hover Foreground            |
-| modernEditorTab.activeBackground            | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Background    |
-| modernEditorTab.activeForeground            | #cbd0d6CC | <span style="display:inline-block;width:1.5em;height:1.5em;background:#cbd0d6;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Foreground    |
-| modernEditorTab.activeActionBackground      | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Actions       |
+| modernEditorTab.activeBackground            | #2E413F   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#2E413F;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Background    |
+| modernEditorTab.activeForeground            | #68B57B   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#68B57B;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Foreground    |
+| modernEditorTab.activeActionBackground      | #2E413F   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#2E413F;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Actions       |
 | modernEditorTab.inactiveBackground          | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Inactive Editor Tab Background  |
-| modernEditorTab.hoverBackground             | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Editor Tab Hover Background     |
+| modernEditorTab.hoverBackground             | #282D38   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#282D38;border:1px solid #ccc;vertical-align:middle"></span> | Editor Tab Hover Background     |
 | modernEditorTab.hoverForeground             | #cbd0d6CC | <span style="display:inline-block;width:1.5em;height:1.5em;background:#cbd0d6;border:1px solid #ccc;vertical-align:middle"></span> | Editor Tab Hover Foreground     |
-| modernEditorTab.hoverActionBackground       | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Editor Tab Hover Actions        |
-| modernEditorTab.activeHoverBackground       | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Hover         |
-| modernEditorTab.activeHoverActionBackground | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Hover Actions |
-| modernEditorTab.selectedActionBackground    | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Selected Editor Tab Actions     |
+| modernEditorTab.hoverActionBackground       | #282D38   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#282D38;border:1px solid #ccc;vertical-align:middle"></span> | Editor Tab Hover Actions        |
+| modernEditorTab.activeHoverBackground       | #2E413F   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#2E413F;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Hover         |
+| modernEditorTab.activeHoverActionBackground | #2E413F   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#2E413F;border:1px solid #ccc;vertical-align:middle"></span> | Active Editor Tab Hover Actions |
+| modernEditorTab.selectedActionBackground    | #2E413F   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#2E413F;border:1px solid #ccc;vertical-align:middle"></span> | Selected Editor Tab Actions     |
 
 ## Modern UI ActivityBar
 
@@ -187,14 +187,14 @@ Below is the full list of UI colors used in the theme, grouped by property, with
 
 ## Agent Sessions
 
-| Name                     | Color     | Preview                                                                                                                                | Usage Example                   |
-| ------------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| agents.background        | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span>     | Agent Sessions Shell Background |
-| agentsPanel.background   | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span>     | Agent Card Panel Background     |
-| agentsPanel.foreground   | #cbd0d6CC | <span style="display:inline-block;width:1.5em;height:1.5em;background:#cbd0d6;border:1px solid #ccc;vertical-align:middle"></span>     | Agent Card Panel Foreground     |
-| agentsPanel.border       | #00000000 | <span style="display:inline-block;width:1.5em;height:1.5em;background:transparent;border:1px solid #ccc;vertical-align:middle"></span> | Agent Card Panel Border         |
-| agentsCard.border        | #00000000 | <span style="display:inline-block;width:1.5em;height:1.5em;background:transparent;border:1px solid #ccc;vertical-align:middle"></span> | Agent Floating Card Border      |
-| agentsBottomPanel.border | #00000000 | <span style="display:inline-block;width:1.5em;height:1.5em;background:transparent;border:1px solid #ccc;vertical-align:middle"></span> | Agent Bottom Panel Border       |
+| Name                     | Color     | Preview                                                                                                                            | Usage Example                   |
+| ------------------------ | --------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| agents.background        | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Agent Sessions Shell Background |
+| agentsPanel.background   | #1F2430   | <span style="display:inline-block;width:1.5em;height:1.5em;background:#1F2430;border:1px solid #ccc;vertical-align:middle"></span> | Agent Card Panel Background     |
+| agentsPanel.foreground   | #cbd0d6CC | <span style="display:inline-block;width:1.5em;height:1.5em;background:#cbd0d6;border:1px solid #ccc;vertical-align:middle"></span> | Agent Card Panel Foreground     |
+| agentsPanel.border       | #ffffff06 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#ffffff;border:1px solid #ccc;vertical-align:middle"></span> | Agent Card Panel Border         |
+| agentsCard.border        | #ffffff06 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#ffffff;border:1px solid #ccc;vertical-align:middle"></span> | Agent Floating Card Border      |
+| agentsBottomPanel.border | #ffffff06 | <span style="display:inline-block;width:1.5em;height:1.5em;background:#ffffff;border:1px solid #ccc;vertical-align:middle"></span> | Agent Bottom Panel Border       |
 
 ---
 
