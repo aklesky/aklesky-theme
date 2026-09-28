@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/aklesky/aklesky-theme/compare/v1.3.2...v1.3.3) (2026-09-28)
+
+
+### Bug Fixes
+
+* **themes:** restore active tab accent and card borders in modern ui ([#20](https://github.com/aklesky/aklesky-theme/issues/20)) ([d956fe4](https://github.com/aklesky/aklesky-theme/commit/d956fe4443e4216c70ce0ca4baab0c1a3c526b5d))
+
 ## [1.3.2](https://github.com/aklesky/aklesky-theme/compare/v1.3.1...v1.3.2) (2026-09-28)
 
 
