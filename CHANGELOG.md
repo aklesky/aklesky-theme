@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/aklesky/aklesky-theme/compare/v1.3.1...v1.3.2) (2026-09-28)
+
+
+### Bug Fixes
+
+* **themes:** align borders and surfaces with modern ui ([#19](https://github.com/aklesky/aklesky-theme/issues/19)) ([b222665](https://github.com/aklesky/aklesky-theme/commit/b22266584e391685fafeb6c3990b3a31a00f9d5b))
+
 ## [1.3.1](https://github.com/aklesky/aklesky-theme/compare/v1.3.0...v1.3.1) (2026-04-08)
 
 
